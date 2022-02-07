@@ -2,7 +2,7 @@ var express = require("express");
 
 var app = express();
 
-app.get("/api/data", (req, res, next) => {
+app.get("/", (req, res, next) => {
   res.json(["Tony","Lisa","Michael","Ginger","Food"]);
  });
 
